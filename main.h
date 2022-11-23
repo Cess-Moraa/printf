@@ -20,16 +20,6 @@ int print_X(va_list X);
 int print_rot13(va_list R);
 int (*driver(char *format))(char *format, va_list);
 int _puts(char *string);
-int contadordigit(int number);
-int _abs(int number);
-int printpercent(char *format, va_list pa);
-int printhex(char *format, va_list);
-int printHEX(char *format, va_list);
-int printocta(char *format, va_list);
-int print_unsign(char *format, va_list);
-int printstr(char *format, va_list);
-int integer(int number);
-
 /**
  * struct code_format - Struct format
  *

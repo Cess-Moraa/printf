@@ -2,9 +2,6 @@
 #define MAIN_H
 
 #include <stdarg.h>
-#include <stddef.h>
-#include <stdlib.h>
-
 int _putchar(char c);
 int _printf(const char *format, ...);
 int print_char(va_list c);
@@ -18,8 +15,6 @@ int print_octal(va_list o);
 int print_x(va_list x);
 int print_X(va_list X);
 int print_rot13(va_list R);
-int (*driver(char *format))(char *format, va_list);
-int _puts(char *string);
 /**
  * struct code_format - Struct format
  *
